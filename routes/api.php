@@ -24,4 +24,4 @@ Route::get('/articulos/{id}', 'App\Http\Controllers\ArticuloController@show'); /
 Route::post('/articulos', 'App\Http\Controllers\ArticuloController@store'); // almacenar articulos
 Route::put('/articulos/{id}', 'App\Http\Controllers\ArticuloController@update'); // actualizar datos
 Route::delete('/articulos/{id}', 'App\Http\Controllers\ArticuloController@destroy'); //eliminar articulos
-Route::delete('/usuarios_delete/{id}','App\Http\Controllers\user@destroy');// eliminar usuarios
+Route::delete('/usuarios_delete/{id}','App\Http\Controllers\user@destroy');
